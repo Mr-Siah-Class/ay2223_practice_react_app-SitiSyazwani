@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar';
 
 import {
   Route,
@@ -13,7 +13,7 @@ import {
 import HomeScreen from './screens/HomeScreen';
 import ProductsScreen from './screens/ProductsScreen';
 import NoScreen from './screens/NoScreen';
-import FooterBar from './components/FooterBar';
+import FooterBar from './components/Footerbar';
 import SingleProductScreen from './screens/SingleProductScreen';
 
 const ProductIdWrapper = () => {
